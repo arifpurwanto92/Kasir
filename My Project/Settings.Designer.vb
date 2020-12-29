@@ -53,6 +53,78 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("billing")>  _
+        Public Property dbase() As String
+            Get
+                Return CType(Me("dbase"),String)
+            End Get
+            Set
+                Me("dbase") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property printer_name() As String
+            Get
+                Return CType(Me("printer_name"),String)
+            End Get
+            Set
+                Me("printer_name") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("10.200.200.28")>  _
+        Public Property host() As String
+            Get
+                Return CType(Me("host"),String)
+            End Get
+            Set
+                Me("host") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("root")>  _
+        Public Property user() As String
+            Get
+                Return CType(Me("user"),String)
+            End Get
+            Set
+                Me("user") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("admin")>  _
+        Public Property pass() As String
+            Get
+                Return CType(Me("pass"),String)
+            End Get
+            Set
+                Me("pass") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("3306")>  _
+        Public Property port() As String
+            Get
+                Return CType(Me("port"),String)
+            End Get
+            Set
+                Me("port") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

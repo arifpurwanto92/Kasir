@@ -8,9 +8,9 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("KasirPerumdam")>
+<Assembly: AssemblyTitle("Kasir Perumdam")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("Perumdam Tirta Kencana Kota Samarinda")>
 <Assembly: AssemblyProduct("KasirPerumdam")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
 <Assembly: AssemblyTrademark("")>
